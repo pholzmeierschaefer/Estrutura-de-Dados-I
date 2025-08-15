@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
-    float horas, valorHora, salario;
+    float horas, valor_hora, salario;
     printf("Horas trabalhadas: ");
     scanf("%f", &horas);
 
     printf("Valor da hora: ");
-    scanf("%f", &valorHora);
+    scanf("%f", &valor_hora);
 
-    salario = horas * valorHora;
+    salario = horas * valor_hora;
 
     if (horas > 200){
         salario = salario + (salario * 0.5);
