@@ -1,5 +1,3 @@
-//imprima a soma de todos os números de 1 até o valor informado.
-
 #include <stdio.h>
 int main(){
     int num;
