@@ -1,6 +1,3 @@
-// sequência de n números (um número menor ou igual à 0 finaliza a sequência),
-// apresentar o percentual de números informados que são maiores ou igual a 10 e menores ou igual a 20.
-
 #include <stdio.h>
 int main()
 {
