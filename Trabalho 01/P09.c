@@ -1,17 +1,38 @@
-/*
-. Um professor gostaria de ter um programa para calcular a média final de seus alunos. Para isso, ele informa a matrícula e as 5 notas que o alunos teve durante o semestre. Após informar as 5 notas, o programa imprime a matrícula do aluno e a média que obteve (média aritmética simples). Quando o professor digitar 0 na matrícula, o programa finaliza e apresenta a média geral da turma. Proibido colocar 5 scanf para pedir as notas. Exemplo: 
-Matrícula: 22010 
-Nota 1: 4 
-Nota 2: 6 
-Nota 3: 6 
-Nota 4: 6 
-Nota 5: 8 
-Aluno: 22010  Média: 6.0
-Matrícula: 0 
-Média geral da turma: 6.0
-
-*/
 #include <stdio.h>
 int main() {
-    
+    int matricula;
+    float nota, soma_notas, media_aluno;
+    float soma_medias = 0.0;
+    int contador_alunos = 0;
+
+    printf("Matricula (0 para sair): ");
+    scanf("%d", &matricula);
+
+    while (matricula != 0){
+        soma_notas = 0;
+
+        for (int i = 1; i <= 5; i++){
+            printf("Nota %d: ", i);
+            scanf("%f", &nota);
+            soma_notas += nota;
+        }
+
+    media_aluno = soma_notas / 5.0;
+    printf("Aluno: %d Media: %.1f\n", matricula, media_aluno);
+    soma_medias += media_aluno;
+    contador_alunos++;
+
+    printf("Matricula (0 para sair): ");
+    scanf("%d", &matricula);
+    }
+
+    if (contador_alunos > 0){
+        printf("Media geral da turma: %.2f\n", soma_medias / contador_alunos);
+
+    }
+    else{
+        printf("Nenhum aluno informado\n");
+    }
+
+    return 0;
 }
