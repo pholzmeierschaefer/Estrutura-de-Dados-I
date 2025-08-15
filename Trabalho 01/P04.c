@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     int n1;
     int n2;
     int n3;
@@ -18,32 +19,39 @@ int main(){
     printf("N4: ");
     scanf("%d", &n4);
 
-
-    if (n1 >= 0){
+    if (n1 >= 0)
+    {
         positivos++;
     }
-    else if (n1 <0){
+    else if (n1 < 0)
+    {
         negativos++;
     }
 
-    if (n2 > 0){
+    if (n2 > 0)
+    {
         positivos++;
     }
-    else if (n2 <0){
+    else if (n2 < 0)
+    {
         negativos++;
     }
 
-    if (n3 > 0){
+    if (n3 > 0)
+    {
         positivos++;
     }
-    else if (n3 <0){
+    else if (n3 < 0)
+    {
         negativos++;
     }
 
-    if (n4 > 0){
+    if (n4 > 0)
+    {
         positivos++;
     }
-    else if (n4 <0){
+    else if (n4 < 0)
+    {
         negativos++;
     }
 
