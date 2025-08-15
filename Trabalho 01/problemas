@@ -1,0 +1,76 @@
+    1. Faça um programa que peça o número de horas trabalhadas e o valor da hora de um determinado funcionário. Em seguida, calcule o salário do 
+funcionário. Caso o funcionário tenha trabalhado mais de 200 horas, o salário final é acrescido de 5%. Exemplos de execução:
+
+	Horas trabalhadas: 120				Horas trabalhadas: 210
+	Valor da hora: 100.00				Valor da hora: 50.00
+	Salário: 12000.00					Salário: 11025.00
+
+    2. Uma loja vende produtos à vista e a prazo (pagamento 30 dias depois da compra). À vista tem um desconto de 5% e a prazo um acréscimo de 10%. 
+Faça um programa em C que peça o preço do produto e a forma de pagamento: 1 para à vista e 2 para a prazo. Depois apresente o preço final do 
+produto. Exemplos de execução:
+
+	Preço do produto: 120.00			Preço do produto: 200.00
+	Forma de pagamento: 1			Forma de pagamento: 2
+	Preço a vista: 114.00			Preço a prazo: 220.00
+
+    3. Faça um programa que calcule a duração de um evento qualquer. Para tal, o programa pede a hora de início e hora de fim (sem os minutos), 
+as horas serão informadas de 0 a 23. Perceba que um evento pode começar em um dia e acabar em outro. Os eventos nunca terão duração de mais 
+de 24 horas. Exemplos de execução:
+
+	Início: 12			Início: 10			Início: 21
+	Fim: 4				Fim: 15			Fim: 6
+	Duração: 16 horas		Duração: 5 horas		Duração: 9 horas
+
+    4. Faça um programa que peça 4 números inteiros. Em seguida, apresente quantos números informados são negativos e quantos são positivos 
+(considere o 0 como positivo). Exemplos de execução:
+
+	N1: 12			N1: -1
+	N2: 4			N2: -20
+	N3: -3			N3: -7
+	N4: 5			N4: -11
+	3 (+) e 1 (-)	0 (+) e 4 (-)
+
+    5. Faça um programa que simule a multiplicação por meio de adições. Para tal serão pedidos os dois operandos. Por exemplo se for informado 
+3 e 4, deverá ser calculado, usando a soma, 3∗4, ou seja, 12. Este cálculo é feito somando o primeiro valor informado por ele mesmo o número 
+de vezes representada pelo segundo número. Nesse exemplo, o três seria somado quatro vezes: 3+3+3+3, resultando 12. 
+
+    6. Faça um programa que peça uma valor e imprima a soma de todos os números de 1 até o valor informado. Por exemplo, se o valor informado for
+6, o resultado será 21, ou seja, 1 + 2 + 3 + 4 + 5 + 6. 
+
+    7. Dada uma sequência de n números (um número menor ou igual à 0 finaliza a sequência), apresentar o percentual de números informados que são 
+maiores ou igual a 10 e menores ou igual a 20. 
+Exemplo:  
+Número: 5
+Número: 6 
+Número: 11 
+Número: 21 
+Número: 0 
+% entre 10 e 20: 25% 
+
+    8. Faça um programa que peça o salário e o número de filhos dos habitantes de uma região. Quando o salário informado for menor que zero, as 
+entradas são finalizadas e serão apresentadas as médias salarial e de filhos informados. Exemplo: 
+Salário: 1500 
+Filhos: 2 
+Salário: 3245 
+Filhos: 2 
+Salário: -1 
+Média salários: 2372.5 
+Média filhos: 2.0 
+
+    9. Um professor gostaria de ter um programa para calcular a média final de seus alunos. Para isso, ele informa a matrícula e as 5 notas que o 
+alunos teve durante o semestre. Após informar as 5 notas, o programa imprime a matrícula do aluno e a média que obteve (média aritmética simples). 
+Quando o professor digitar 0 na matrícula, o programa finaliza e apresenta a média geral da turma. Proibido colocar 5 scanf para pedir as notas. 
+Exemplo: 
+Matrícula: 22010 
+Nota 1: 4 
+Nota 2: 6 
+Nota 3: 6 
+Nota 4: 6 
+Nota 5: 8 
+Aluno: 22010  Média: 6.0
+Matrícula: 0 
+Média geral da turma: 6.0
+
+    10. Faça um programa para calcular o fatorial de um número dado. O fatorial de um número n é n × (n − 1) × (n − 2) × . . . × 1, por definição 
+o fatorial de 0 e 1 é 1. Por exemplo, o fatorial de 5 é 120, ou seja, 5 × 4 × 3 × 2 × 1 (perceba que não seria necessário fazer a última 
+multiplicação já que 1 é o elemento neutro da multiplicação).
