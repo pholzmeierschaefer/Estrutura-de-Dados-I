@@ -30,7 +30,7 @@ int main()
     }
     else
     {
-        printf("Nenhum numero informado.\n");
+        printf("Nenhum numero informado\n");
     }
     return 0;
 }
