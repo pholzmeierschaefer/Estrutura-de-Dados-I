@@ -1,0 +1,9 @@
+1 - Faça uma função que lê dois inteiros e apresenta a diferença entre os dois.
+2 - Crie uma função que receba 2 números e retorne o maior valor entre eles (se forem iguais, retorna o segundo).
+3 - Crie uma função que receba 3 números e retorne o maior valor, utilizando uma chamada para a função anterior.
+4 - Crie um aplicativo de conversão entre as temperaturas Celsius e Fahrenheit.
+    Primeiro o usuário deve escolher se vai entrar com a temperatura em Celsius ou Fahrenheit, depois a conversão escolhida é realizada.
+    Se C é a temperatura em Celsius e F em Fahrenheit, as fórmulas de conversão são:
+    C = 5*(F-32)/9
+    F = (9*C/5) + 32
+
