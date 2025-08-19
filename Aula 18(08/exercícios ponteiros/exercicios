@@ -1,0 +1,5 @@
+1 - Escreva uma função chamada troca(), que receba dois ponteiros para inteiros e troca os valores entre eles.
+    Exemplo de chamada: troca(&a, &b)
+2 - Crie uma função chamada maior(), que receba dois inteiros e um ponteiro para um inteiro. A função deve armazenar o valor do maior no endereço do ponteiro.
+    Exemplo de chamada: maior(a, b, &c)
+3 - Crie uma função somaImpares(), que receba dois inteiros (inicio, fim) e um ponteiro. A função deve somar os ímpares do intervalo.
