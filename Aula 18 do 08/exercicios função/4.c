@@ -33,7 +33,7 @@ int main(){
     
     else {
         printf("Escolha invalida!\n");
-        return 1;
+    
     }
     return 0;
 }

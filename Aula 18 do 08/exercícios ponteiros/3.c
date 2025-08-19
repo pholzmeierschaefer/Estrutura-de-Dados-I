@@ -1,6 +1,3 @@
-/*Crie uma função somaImpares(), que receba dois inteiros (inicio, fim) e um ponteiro. A função deve somar os ímpares do intervalo.
-*/
-
 #include <stdio.h>
 
 void somaImpares(int inicio, int fim, int *resultado) {

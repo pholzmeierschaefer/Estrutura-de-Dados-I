@@ -1,7 +1,3 @@
-/*Crie uma função chamada maior(), que receba dois inteiros e um ponteiro para um inteiro. A função deve armazenar o valor do maior no endereço do ponteiro.
-Exemplo de chamada: maior(a, b, &c)
-*/
-
 #include <stdio.h>
 void maior(int a, int b, int *resultado)
 {

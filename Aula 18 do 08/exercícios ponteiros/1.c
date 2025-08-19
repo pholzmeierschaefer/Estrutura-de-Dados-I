@@ -1,6 +1,3 @@
-/*Escreva uma função chamada troca(), que receba dois ponteiros para inteiros e troca os valores entre eles.
-Exemplo de chamada: troca(&a, &b)*/
-
 #include <stdio.h>
 
 void troca(int *a, int *b){
