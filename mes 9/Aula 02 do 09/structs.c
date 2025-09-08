@@ -8,6 +8,9 @@ Costuma criar o tipo antes das funções e as variaveis depois nas funções
 
 as variaveis struct podem ser ponteiros
 
+3 passos - 1. criar a estrutura         } fora da main
+           2. criar o tipo              }
+           3. criar a variavel do tipo
 
 
 #include <stdio.h>
