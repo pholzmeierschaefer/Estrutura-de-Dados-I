@@ -15,10 +15,11 @@ int main()
 
     while (i <= 100)
     {
-        p = (INT *)malloc(sizeof(INT));
-        p->value = i;
-        p->next = NULL;
-        if (first == NULL)
+        p = (INT *)malloc(sizeof(INT)); // aloca memória
+        p->value = i;       //
+        p->next = NULL;     // atribui valores para o espaço alocado e null
+
+        if (first == NULL)  
         {
             first = p;
             aux = p;
